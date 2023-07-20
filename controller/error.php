@@ -1,40 +1,115 @@
+<style>* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*===== VARIABLES CSS =====*/
+:root{
+  --first-color: #ff005a;
+  --second-color: #8400ff;
+  --third-color:#000; 
+  --body-font: 'Montserrat', sans-serif;
+}
+body{
+  margin: 0;
+  font-family: var(--body-font); 
+  background-color: var(--third-color);
+}
+#notfound{
+  position:relative;
+  height:100vh;
+}
+#notfound .notfound{
+  position:absolute;
+  left:50%;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  max-width:767px;
+  width:100%;
+  line-height: 1.4;
+  text-align: center;
+}
+.notfound .notfound-404{
+  position:relative;
+  height:180px;
+  margin-bottom:20px;
+  z-index: -1;
+} 
+.notfound .notfound-404 h1{
+  position:absolute;
+  left:50%;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  font-size:224px;
+  font-weight: 900;
+  margin:0 0 0 -12px;
+  color:var(--third-color);
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px var(--second-color), 1px 1px 0px var(--first-color);
+  letter-spacing:-20px;
+}
+.notfound .notfound-404 h2{
+  position:absolute;
+  left:0;
+  top:110px;
+  right:0;
+  font-size:42px;
+  font-weight: 700;
+  color:#fff;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px var(--first-color);
+  letter-spacing:13px;
+  margin:0;
+}
+.notfound a{
+  display: inline-block;
+  text-transform: uppercase;
+  color:var(--first-color);
+  text-decoration: none;
+  border:2px solid;
+  background:transparent;
+  padding:10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  margin:15px;
+  -webkit-transition:0.2s all;
+  -ms-transition:0.2s all;
+  transition:0.2s all;
+}
+.notfound a:hover{
+  color:var(--second-color);
+}
+@media (max-width:767px){
+  .notfound .notfound-404 h2{
+    font-size: 24px;
+  }
+}
+@media (max-width:480px){
+  .notfound .notfound-404 h1{
+    font-size: 182px;
+  }
+}
+
+</style>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Error</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .error-container {
-            max-width: 600px;
-            margin: 100px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        }
-
-        .error-container h1 {
-            font-size: 24px;
-            color: #333;
-            margin: 0 0 20px;
-        }
-
-        .error-container p {
-            font-size: 16px;
-            color: #777;
-        }
-    </style>
+    <title>Sayfa Bulunamadı</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="error-container">
-        <h1>Bir hata oluştu</h1>
-        <p>Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.    </p>
-    </div>
+   <div id="notfound">
+     <div class="notfound">
+       <div class="notfound-404">
+         <h1>404</h1>
+         <h2>Sayfa Bulunamadı</h2>
+       </div>
+     </div>
+   </div>
 </body>
 </html>
+

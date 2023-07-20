@@ -10,6 +10,8 @@ $password = "";
     echo "";
   } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
+    header("Location: error.php"); // Hata olduğunda error.php sayfasına yönlendirme
+    exit;
   }
 
 ?>
