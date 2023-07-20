@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../view/css/addperson.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="logo">
+        <img src="../view/image/saglık.jpg" alt="Logo">
+        </div>
+        <form method="POST" action="../controller/verileri_kaydet.php">
+            <div class="form-field">
+                <label for="ad">Adı:</label>
+                <input type="text" name="ad" id="ad" placeholder="Adı">
+            </div>
+            <div class="form-field">
+                <label for="soyad">Soyadı:</label>
+                <input type="text" name="soyad" id="soyad" placeholder="Soyadı">
+            </div>
+            <div class="form-field">
+                <label for="tc">Tc Kimlik Nosu:</label>
+                <input type="text" name="tc" id="tc" placeholder="Tc Kimlik Nosu">
+            </div>
+            <div class="form-field">
+                <label for="yas">Yaşı:</label>
+                <input type="text" name="yas" id="yas" placeholder="Yaşı">
+            </div>
+            <div class="form-field">
+                <label for="telefon">Telefon:</label>
+                <input type="text" name="telefon" id="telefon" placeholder="Telefon">
+            </div>
+            <div class="form-field">
+                <label for="sicil">Sicil:</label>
+                <input type="text" name="sicil" id="sicil" placeholder="Sicil">
+            </div>
+            <div class="form-field">
+                <label for="dogumTarihi">Doğum Tarihi:</label>
+                <input type="text" name="dogumTarihi" id="dogumTarihi" placeholder="Doğum Tarihi">
+            </div>
+            <br>
+            <button type="submit">Veriyi Gönder</button><br>
+
+            <a href="liste.php" class="back-btn">Geri Dön</a>
+        </form>
+    </div>
+</body>
+</html> 
