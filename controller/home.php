@@ -19,11 +19,27 @@
         </ul>
         <div class="slider-button slider-button-left" onclick="sliderPrev()">&lt;</div>
         <div class="slider-button slider-button-right" onclick="sliderNext()">&gt;</div>
-    </div>
-    <div class="ust_bilgi">
+    </div> <br> <br> 
+         <div class="row">
+         <div class="column1" style="background-color:#fff;">
+        <ul class="acilir-liste">
+          <h2 class="text1"><b> Duyurular</h2> </b>
+          <li><a href="https://sgb.saglik.gov.tr/TR,96609/il-ozel-idarelerine-aktarilan-yatirim-odeneklerinin-2023-yili-ii-donemnisan-mayis-haziran-harcama-veri-girisi.html">İl Özel İdarelerine Aktarılan Yatırım Ödeneklerinin 2023 yılı II. Dönem(Nisan, Mayıs, Haziran) Harcama Veri Girişi</a></li>
+         <li><a href="https://shgm.saglik.gov.tr/TR,96518/uremeye-yardimci-tedavi-uyte-kliniklaboratuvar-uygulamalari-sertifikali-egitim-programi-2023-yili-2-donem-yeni-egitim-ve-tazeleme-egitim-basvurulari.html">Üremeye Yardımcı Tedavi (ÜYTE) Klinik/Laboratuvar Uygulamaları Sertifikalı Eğitim Programı 2023 Yılı 2. Dönem Yeni Eğitim ve Tazeleme Eğitim Başvuruları</a></li>
+         <li><a href="https://www.saglik.gov.tr/TR,96517/sihhat-2-projesi-kapsaminda-raporlama-uzmani-istihdam-edilecektir.html">SIHHAT-2 Projesi Kapsamında Raporlama Uzmanı İstihdam Edilecektir</a></li>
+         <li><a href="https://sgb.saglik.gov.tr/TR,96512/genel-yonetim-muhasebe-yonetmeligi-geregi-saglik-bakanligi-2023mayis-donemi-mali-tablolari-yayimlanmistir.html">Genel Yönetim Muhasebe Yönetmeliği Gereği Sağlık Bakanlığı 2023/Mayıs Dönemi Mali Tabloları Yayımlanmıştır.</a></li>
+         <li><a href="https://www.saglik.gov.tr/TR,96694/bakan-kocadan-hepatit-a-asilarina-iliskin-aciklama.html">Bakan Koca'dan “Hepatit A” Aşılarına İlişkin Açıklama</a></li>
+         <li><a href="https://www.saglik.gov.tr/TR,96692/bakan-koca-aile-hekimligi-kanununun-detaylarini-acikladi.html">Bakan Koca, Aile Hekimliği Kanununun Detaylarını Açıkladı</a></li>
+         <li><a href="https://sgb.saglik.gov.tr/TR,96260/genel-yonetim-muhasebe-yonetmeligi-geregi-saglik-bakanligi-2023nisan-donemi-mali-tablolari-yayimlanmistir.html">Genel Yönetim Muhasebe Yönetmeliği Gereği Sağlık Bakanlığı 2023/Nisan Dönemi Mali Tabloları Yayımlanmıştır.</a></li>
+         <li><a href="https://www.saglik.gov.tr/TR,96691/saglik-bakani-koca-tbmm-baskani-kurtulmusu-ziyaret-etti.html">Sağlık Bakanı Koca, TBMM Başkanı Kurtulmuş'u Ziyaret Etti</a></li>
+        </ul>
+     </div>
 
-
-    </div>
+         <div class="column" style="background-color:#fff; position: relative;">
+         <img height="380" width="470" src="../view/image/38414,s-bakanimizpng.jpg">
+         <a href="bakanbilgi.php" class="overlay button">Bakanımız DR. Fahrettin Koca hakkında bilgi edinin </a>
+        </div>
+     </div><br>
     <footer>
   <div class="rounded-social-buttons">
                     <a class="social-button facebook" href="https://www.facebook.com/yozgatilsaglik/?locale=tr_TR" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -31,7 +47,7 @@
                     <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a class="social-button youtube" href="https://www.youtube.com/@yozgatilsaglik" target="_blank"><i class="fab fa-youtube"></i></a>
                     <a class="social-button instagram" href="https://www.instagram.com/yozgatilsaglik/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
+                </div> 
 </footer>
     <script>
         var slideIndex = 0;
@@ -67,7 +83,5 @@
             }
         }
     </script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-
 </body>
 </html>

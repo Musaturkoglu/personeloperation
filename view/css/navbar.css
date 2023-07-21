@@ -17,6 +17,8 @@
   } */
 
   .navbar a {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
     font-weight: 600;
     color: #4CAF50;
     text-decoration: none;
@@ -111,4 +113,8 @@
   padding: 15px;
   border-radius: 50%;
   animation: fadeIn 0.3s;
+}
+
+#upButton i {
+  animation: arrowUp 1s infinite;
 }

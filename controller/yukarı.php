@@ -3,27 +3,6 @@
 <head>
     <title>Yukarı Çıkma</title>
     <style>
-        #upButton {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 30px;
-            z-index: 99;
-            font-size: 18px;
-            border: none;
-            outline: none;
-            background-color: red;
-            color: white;
-            cursor: pointer;
-            padding: 15px;
-            border-radius: 50%;
-            animation: fadeIn 0.3s;
-        }
-
-        #upButton i {
-            animation: arrowUp 1s infinite;
-        }
-
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -51,7 +30,7 @@
 
     <button onclick="scrollToTop()" id="upButton"><i class="fas fa-arrow-up"></i></button>
 
-    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> -->
     <script>
         // JavaScript kodu
         window.onscroll = function() { scrollFunction() };
