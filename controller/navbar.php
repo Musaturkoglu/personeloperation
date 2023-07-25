@@ -38,6 +38,7 @@
             <a href="home.php">Ana Sayfa</a>
             <a href="liste.php">Personel Listesi</a>
             <a href="iletisim.php">İletişim</a>
+            <a href="../controller/site_haritasi.php">Site Haritası</a>
             <div class="dropdown">
                 <a class="dropdown-trigger" href="#">
                     <?php      

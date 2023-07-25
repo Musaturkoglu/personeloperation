@@ -1,0 +1,66 @@
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+
+  padding: 0;
+}
+
+/* Navigation Styles */
+#navigation {  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#navigation h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#navlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navlist li {
+  margin: 5px 0;
+}
+
+#navlist li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#navlist li a:hover {
+  background-color: #eee;
+}
+
+/* Wrapper Styles */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Column Styles */
+#navigation {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 5px;
+}
+/* CSS Animation for Fade In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

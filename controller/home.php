@@ -8,6 +8,7 @@
     </style>
 </head>
 <body>
+    
 <?php include("navbar.php"); ?><br><br>
     <div id="slider">
         <ul>
@@ -29,9 +30,9 @@
          <li><a href="https://www.saglik.gov.tr/TR,96517/sihhat-2-projesi-kapsaminda-raporlama-uzmani-istihdam-edilecektir.html">SIHHAT-2 Projesi Kapsamında Raporlama Uzmanı İstihdam Edilecektir</a></li>
          <li><a href="https://sgb.saglik.gov.tr/TR,96512/genel-yonetim-muhasebe-yonetmeligi-geregi-saglik-bakanligi-2023mayis-donemi-mali-tablolari-yayimlanmistir.html">Genel Yönetim Muhasebe Yönetmeliği Gereği Sağlık Bakanlığı 2023/Mayıs Dönemi Mali Tabloları Yayımlanmıştır.</a></li>
          <li><a href="https://www.saglik.gov.tr/TR,96694/bakan-kocadan-hepatit-a-asilarina-iliskin-aciklama.html">Bakan Koca'dan “Hepatit A” Aşılarına İlişkin Açıklama</a></li>
-         <li><a href="https://www.saglik.gov.tr/TR,96692/bakan-koca-aile-hekimligi-kanununun-detaylarini-acikladi.html">Bakan Koca, Aile Hekimliği Kanununun Detaylarını Açıkladı</a></li>
-         <li><a href="https://sgb.saglik.gov.tr/TR,96260/genel-yonetim-muhasebe-yonetmeligi-geregi-saglik-bakanligi-2023nisan-donemi-mali-tablolari-yayimlanmistir.html">Genel Yönetim Muhasebe Yönetmeliği Gereği Sağlık Bakanlığı 2023/Nisan Dönemi Mali Tabloları Yayımlanmıştır.</a></li>
-         <li><a href="https://www.saglik.gov.tr/TR,96691/saglik-bakani-koca-tbmm-baskani-kurtulmusu-ziyaret-etti.html">Sağlık Bakanı Koca, TBMM Başkanı Kurtulmuş'u Ziyaret Etti</a></li>
+         <li><a href="https://www.saglik.gov.tr/TR,96517/sihhat-2-projesi-kapsaminda-raporlama-uzmani-istihdam-edilecektir.html">SIHHAT-2 Projesi Kapsamında Raporlama Uzmanı İstihdam Edilecektir.</a></li>
+         <br>
+         <a href="../controller/guncel_haber.php" class="butonguncel">Güncel Haberler için</a>
         </ul>
      </div>
 

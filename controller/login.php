@@ -27,8 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: home.php");
         exit;
     } else {
-        // Şifre yanlış ise hata mesajı gösterin ve yönlendirme yapın
-        $error_message = "Şifre boş veya hatalı girildi.";
+        // Hata mesajını gösterin ve yönlendirme yapın
+        $error_message = "Kullanıcı adı veya şifre hatalı.";
         $_SESSION["error_message"] = $error_message;
         header("Location: ../view/giris.php");
         exit;

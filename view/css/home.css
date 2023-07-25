@@ -295,7 +295,8 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     opacity: 1;
   }
   
-  .button {
+  .button {   
+     width: 489px;
     background-color: transparent;
     border: 2px solid #007bff;
     color: #007bff;
@@ -313,9 +314,9 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   .column1 {margin-left: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     float: left;
-    width: 990px;
+    width: 994px;
     padding: 10px;
-    height: 400px; /* Should be removed. Only for demonstration */
+    height: 400px;
   }
   
   .acilir-liste {
@@ -336,7 +337,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .acilir-liste li a {
-    width: 953;
+    width: 957px;
     color: black;
     text-decoration: none;
     padding: 5px 10px;
@@ -352,3 +353,17 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   .text1 {
     text-align: center;
   }
+
+  .butonguncel {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;}
