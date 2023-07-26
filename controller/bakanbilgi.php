@@ -1,8 +1,9 @@
 <?php include("checklogin.php"); ?>
-<?php include("navbar.php"); ?>
+
 <link rel="stylesheet" href="../view/css/bakanbilgi.css">
 <head>
     <title>Bakanımız Hakkında</title>
+    <?php include("navbar.php"); ?>
 </head>
 <body>
     <br>

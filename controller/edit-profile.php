@@ -1,3 +1,5 @@
+<head><title>Admin Profil</title></head>
+
     <?php
     include("checklogin.php");
     include("navbar.php");

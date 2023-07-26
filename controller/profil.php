@@ -1,6 +1,6 @@
+<head><title>Admin Profil</title></head>
 <?php
 include("checklogin.php");
-include("navbar.php");
 
 $servername = "localhost";
 $username = "root";
@@ -33,6 +33,7 @@ function updateProfile($name, $email, $imageData, $db) {
         echo "Update failed: " . $e->getMessage();
     }
 }
+include("navbar.php");
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

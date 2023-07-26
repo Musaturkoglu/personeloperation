@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><title>Personel Ekle</title>
     <link rel="stylesheet" href="../view/css/addperson.css">
     <style>
 

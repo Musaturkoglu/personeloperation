@@ -1,6 +1,7 @@
 <?php include("checklogin.php"); ?>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="../view/css/sitemap.css">  
+<head><title>Site Haritası</title></head>
 <style>
 
 /* Apply the animation to the navigation list items */

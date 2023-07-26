@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Haberler</title>
+    <title>Ana Sayfa</title>
     <style>
     </style>
 </head>

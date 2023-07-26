@@ -1,15 +1,17 @@
 
-<?php include("navbar.php"); ?><br><br>
-<?php include("../controller/rss_feed.php"); ?><br><br>
+
 <!DOCTYPE html>
+<head><title>Site Haritası</title></head>
+<?php include("navbar.php"); ?><br><br>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>RSS Feed</title>
     <style>
 
     </style>
 </head>
+<?php include("../controller/rss_feed.php"); ?><br><br>
+
 <body>
     <h1></h1>
     <div id="rss-feed"></div>
