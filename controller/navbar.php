@@ -34,7 +34,8 @@
             <a href="home.php"><img src="../view/image/saglık.jpg" alt="Logo"></a>
         </div>
         <div class="nav-links">
-            
+        <p><span id="tarih"></span></p>
+
             <a href="home.php">Ana Sayfa</a>
             <a href="liste.php">Personel Listesi</a>
             <a href="iletisim.php">İletişim</a>
@@ -76,6 +77,17 @@
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
     <?php include("yukarı.php"); ?>
+    <script>
+        // JavaScript ile tarihi alıp, span etiketine Türkçe olarak ekleyelim
+        var tarihElementi = document.getElementById('tarih');
+        var tarih = new Date();
+
+        // Tarihi Türkçe olarak biçimlendirme
+        var tarihOptions = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+        var tarihStr = tarih.toLocaleDateString('tr-TR', tarihOptions);
+
+        tarihElementi.innerText = tarihStr;
+    </script>
 </body>
 
 </html>

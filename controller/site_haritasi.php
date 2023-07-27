@@ -20,6 +20,11 @@
       <li><a href="../controller/home.php">Ana Sayfa</a></li>
       <li><a href="../controller/guncel_haber.php">Güncel Haberler İçin</a></li>
       <li><a href="../controller/bakanbilgi.php">DR. Fahrettin Koca Hakkında Bilgi</a></li>
+      <li><a href="../controller/personelhaber.php">Peronsel Duyuru</a></li>
+      <li><a href="../controller/yardımcı1.php">Dr. Şuayıp BİRİNCİ</a></li>
+      <li><a href="../controller/yardımcı2.php">Doç. Dr. Tolga TOLUNAY</a></li>
+      <li><a href="../controller/yardımcı3.php">Huzeyfe YILMAZ</a></li>
+      <li><a href="../controller/yardımcı4.php">Hüseyin Kürşat KIRBIYIK</a></li>
     </ul>
   </div>
  <!-- Column 2 ---> 

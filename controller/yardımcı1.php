@@ -2,24 +2,21 @@
 
 <link rel="stylesheet" href="../view/css/bakanbilgi.css">
 <head>
-    <title>Bakanımız Hakkında</title>
+    <title>Bakan Yardımcısı</title>
     <?php include("navbar.php"); ?>
 </head>
 <body>
     <br>
     <div class="bilgi">
-        <img height=400 src="../view/image/38414,s-bakanimizpng.jpg" alt="">
-        <br><br>
-        <div class="text">
-            <b>Dr. Fahrettin Koca</b><br><br>
-            Dr. Fahrettin Koca, 2 Ocak 1965’te Konya’da doğdu. İlk ve orta öğrenimini doğduğu kentte, liseyi Bursa Erkek Lisesi’nde bitirdi. İstanbul Üniversitesi Tıp Fakültesi’ni 1988’de tamamlayarak tıp doktoru unvanını aldı. İhtisasını İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi Çocuk Sağlığı ve Hastalıkları Ana Bilim Dalı’nda tamamlayarak 1995’te Çocuk Sağlığı ve Hastalıkları Uzmanı oldu. <br><br>
-
-Çeşitli sağlık kurumlarında hekimlik ve medikal direktörlük görevlerinde bulundu. Kurduğu ve başkanlığını yürüttüğü sağlık kurumlarında Türkiye’nin sağlıkta dönüşüm politikaları doğrultusunda önemli atılımlar gerçekleştirdi. Başkanı olduğu Türkiye Eğitim Sağlık ve Araştırma (TESA) Vakfı tarafından 2009 yılında kurulan İstanbul Medipol Üniversitesi’nin Mütevelli Heyeti Başkanlığını yürüttü.<br><br>
-
-Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik Metabolizma ve Beslenme Derneği, İstanbul Ticaret Odası (İTO) Sağlık Meslek Komitesi, Özel Hastaneler Sağlık Kuruluşları Derneği (OHSAD) üyelikleri bulunmaktadır. Aynı zamanda Dış Ekonomik İlişkiler Konseyi (DEİK) Eğitim Komitesi İş Konseyi Başkan Yardımcısı, Vakıf Üniversite Hastaneleri Derneği’nin Başkanı ve Hizmet İhracatçıları Birliği Sağlık Hizmetleri Komitesi Başkanıdır.<br><br>
-        </div>
+        <img center height=400 src="../view/image/yardımcı1.jpg" alt="">
+        <br><br><div class=text>
+       <b>Dr. Şuayıp BİRİNCİ</b>
+       Dr. Şuayıp BİRİNCİ, 1973 yılında Rize’de doğdu. İlk ve orta öğrenimini Rize ve Trabzon’da, üniversite eğitimini, Ondokuz Mayıs Üniversitesi Tıp Fakültesi’nde tamamladı. Tıp doktoru olduktan sonra; “Liderlik ve Küresel Girişimcilik” te yüksek lisans, “Sağlık Kurumları Yönetimi” alanında yüksek lisans ve doktora yaptı.<br><br>
+        1998 yılında meslek hayatına başlayan Dr.Birinci memleketi Rize ve İstanbul’da çeşitli kamu kurumlarında hekimlik yaptı. Ümraniye EA Hastanesi’nde başhekim yardımcılığı (2005-2009), İstanbul İl Sağlık Müdürlüğü’nde müdür yardımcılığı (2009-2012) ve TKHK İstanbul Anadolu Kuzey Bölgesi’nde genel sekreterlik (2012-2014) görevlerinde bulundu.<br><br>
+        Sağlık Bakanlığı Merkez Teşkilatı’nda, müsteşar yardımcılığı (2014-2018) ve Ağustos 2018’de Sağlık Bakanlığı Bakan Yardımcılığı görevine atanmış ve halen görevini sürdürmektedir. Bakanlıkta çalıştığı süreçte, strateji ve hedefleri belirleme, planlama, regülasyon ve koordinasyon görevlerini sürdürdü.
     </div>
-
+    <div class=text>
+        
     <!-- Add the button with the link to an open menu -->
     <div class="open-menu-button" onclick="toggleMenu()">
         <a href="#menu">Yardımcılar</a>
@@ -40,8 +37,7 @@ Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik M
     <style>
         /* CSS style for the open menu button */
         .open-menu-button {
-            width: 75px;
-    position: sticky;
+            width: 93px;    position: sticky;
     bottom: 20px;
     right: 20px;
     background-color: #f44336;

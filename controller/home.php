@@ -33,6 +33,7 @@
          <li><a href="https://www.saglik.gov.tr/TR,96517/sihhat-2-projesi-kapsaminda-raporlama-uzmani-istihdam-edilecektir.html">SIHHAT-2 Projesi Kapsamında Raporlama Uzmanı İstihdam Edilecektir.</a></li>
          <br>
          <a href="../controller/guncel_haber.php" class="butonguncel">Güncel Haberler için</a>
+         <a href="../controller/personelhaber.php" class="personelhaber">Personel Haberler İçin</a>
         </ul>
      </div>
 

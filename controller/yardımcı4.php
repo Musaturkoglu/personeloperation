@@ -2,24 +2,23 @@
 
 <link rel="stylesheet" href="../view/css/bakanbilgi.css">
 <head>
-    <title>Bakanımız Hakkında</title>
+    <title>Bakan Yardımcısı</title>
     <?php include("navbar.php"); ?>
 </head>
 <body>
     <br>
     <div class="bilgi">
-        <img height=400 src="../view/image/38414,s-bakanimizpng.jpg" alt="">
-        <br><br>
-        <div class="text">
-            <b>Dr. Fahrettin Koca</b><br><br>
-            Dr. Fahrettin Koca, 2 Ocak 1965’te Konya’da doğdu. İlk ve orta öğrenimini doğduğu kentte, liseyi Bursa Erkek Lisesi’nde bitirdi. İstanbul Üniversitesi Tıp Fakültesi’ni 1988’de tamamlayarak tıp doktoru unvanını aldı. İhtisasını İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi Çocuk Sağlığı ve Hastalıkları Ana Bilim Dalı’nda tamamlayarak 1995’te Çocuk Sağlığı ve Hastalıkları Uzmanı oldu. <br><br>
+        <img height=400 width="660" src="../view/image/yardımcı4.webp" alt="">
+        <br><br><div class=text>
+       <b>Hüseyin Kürşat KIRBIYIK</b><br><br>
+       Rize'nin Güneysu ve Karaman'ın Kazımkarabekir ilçelerinde Kaymakam vekilliği görevlerinde bulundu. Londra'da 6 ay yabancı dil eğitimi alan Kırbıyık, sırasıyla Burdur Altınyayla, Kahramanmaraş Nurhak ilçelerinde Kaymakamlık, Kahramanmaraş Vali Yardımcılığı ve Burdur Gölhisar Kaymakamlığı görevlerinden sonra 2013 yılında Mülkiye Müfettişliğine atandı.<br><br>
 
-Çeşitli sağlık kurumlarında hekimlik ve medikal direktörlük görevlerinde bulundu. Kurduğu ve başkanlığını yürüttüğü sağlık kurumlarında Türkiye’nin sağlıkta dönüşüm politikaları doğrultusunda önemli atılımlar gerçekleştirdi. Başkanı olduğu Türkiye Eğitim Sağlık ve Araştırma (TESA) Vakfı tarafından 2009 yılında kurulan İstanbul Medipol Üniversitesi’nin Mütevelli Heyeti Başkanlığını yürüttü.<br><br>
+İçişleri Bakanlığı bünyesinde 2018-2020 yılları arasında Strateji Geliştirme Başkanı, 2020-2022 yılları arasında İller İdaresi Genel Müdürü olarak görev yaptıktan sonra 2022/209 sayılı Cumhurbaşkanlığı Kararı ile Edirne Valisi olarak atanmıştır.<br><br>
 
-Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik Metabolizma ve Beslenme Derneği, İstanbul Ticaret Odası (İTO) Sağlık Meslek Komitesi, Özel Hastaneler Sağlık Kuruluşları Derneği (OHSAD) üyelikleri bulunmaktadır. Aynı zamanda Dış Ekonomik İlişkiler Konseyi (DEİK) Eğitim Komitesi İş Konseyi Başkan Yardımcısı, Vakıf Üniversite Hastaneleri Derneği’nin Başkanı ve Hizmet İhracatçıları Birliği Sağlık Hizmetleri Komitesi Başkanıdır.<br><br>
+22 Haziran 2023 tarih ve 2023/308 sayılı Cumhurbaşkanı Kararıyla Sağlık Bakanlığı Bakan Yardımcısı olarak atanan Hüseyin Kürşat KIRBIYIK evli ve iki çocuk babasıdır.<br>
         </div>
-    </div>
-
+    <div class=text>
+        
     <!-- Add the button with the link to an open menu -->
     <div class="open-menu-button" onclick="toggleMenu()">
         <a href="#menu">Yardımcılar</a>
@@ -40,7 +39,7 @@ Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik M
     <style>
         /* CSS style for the open menu button */
         .open-menu-button {
-            width: 75px;
+            width: 93px;
     position: sticky;
     bottom: 20px;
     right: 20px;

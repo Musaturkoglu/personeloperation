@@ -2,24 +2,23 @@
 
 <link rel="stylesheet" href="../view/css/bakanbilgi.css">
 <head>
-    <title>Bakanımız Hakkında</title>
+    <title>Bakan Yardımcısı</title>
     <?php include("navbar.php"); ?>
 </head>
 <body>
     <br>
     <div class="bilgi">
-        <img height=400 src="../view/image/38414,s-bakanimizpng.jpg" alt="">
-        <br><br>
-        <div class="text">
-            <b>Dr. Fahrettin Koca</b><br><br>
-            Dr. Fahrettin Koca, 2 Ocak 1965’te Konya’da doğdu. İlk ve orta öğrenimini doğduğu kentte, liseyi Bursa Erkek Lisesi’nde bitirdi. İstanbul Üniversitesi Tıp Fakültesi’ni 1988’de tamamlayarak tıp doktoru unvanını aldı. İhtisasını İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi Çocuk Sağlığı ve Hastalıkları Ana Bilim Dalı’nda tamamlayarak 1995’te Çocuk Sağlığı ve Hastalıkları Uzmanı oldu. <br><br>
+        <img height=400 width="660" src="../view/image/yardımcı2.png" alt="">
+        <br><br><div class=text>
+       <b>Doç. Dr. Tolga TOLUNAY</b> <br>
+       1977 yılında Kilis’te doğdu. İlk, orta ve lise öğrenimini Gaziantep’te tamamladı. 1995 yılında Gaziantep Anadolu Lisesi’ni bitirdi. 2003 yılında Hacettepe Üniversitesi Tıp Fakültesi’nden mezun oldu. 2004-2009 yılları arasında Ankara Atatürk Eğitim ve Araştırma Hastanesi Ortopedi ve Travmatoloji Kliniği’nde Ortopedi ve Travmatoloji uzmanlık eğitimini tamamladı. 2010-2014 yılları arasında Yenimahalle Eğitim ve Araştırma Hastanesi Ortopedi ve Travmatoloji Kliniği’nde Uzman Doktor olarak çalıştı. Aynı hastanede 2014-2018 yılları arasında Başhekim Yardımcısı olarak görev yaptı. <br><br>
+       2018 yılında Gazi Üniversitesi Tıp Fakültesi Ortopedi ve Travmatoloji Anabilim Dalı Öğretim Üyesi kadrosuna Yardımcı Doçent olarak atandı. 2019 yılında Doçent unvanını aldı.
 
-Çeşitli sağlık kurumlarında hekimlik ve medikal direktörlük görevlerinde bulundu. Kurduğu ve başkanlığını yürüttüğü sağlık kurumlarında Türkiye’nin sağlıkta dönüşüm politikaları doğrultusunda önemli atılımlar gerçekleştirdi. Başkanı olduğu Türkiye Eğitim Sağlık ve Araştırma (TESA) Vakfı tarafından 2009 yılında kurulan İstanbul Medipol Üniversitesi’nin Mütevelli Heyeti Başkanlığını yürüttü.<br><br>
-
-Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik Metabolizma ve Beslenme Derneği, İstanbul Ticaret Odası (İTO) Sağlık Meslek Komitesi, Özel Hastaneler Sağlık Kuruluşları Derneği (OHSAD) üyelikleri bulunmaktadır. Aynı zamanda Dış Ekonomik İlişkiler Konseyi (DEİK) Eğitim Komitesi İş Konseyi Başkan Yardımcısı, Vakıf Üniversite Hastaneleri Derneği’nin Başkanı ve Hizmet İhracatçıları Birliği Sağlık Hizmetleri Komitesi Başkanıdır.<br><br>
-        </div>
-    </div>
-
+Doç. Dr. Tolunay’ın uzmanlık alanları; biyomekanik, omurganın klinik biyomekaniği, implant tasarımı ve ortopedik tümör cerrahisidir.<br>
+<br><br>TİTCK İleri Tedaviler ve Greft Danışma Komisyonu Üyeliği, TÜBİTAK TEYDEB USETEG Çağrı Programı Danışma Kurulu Üyeliği ve KOSGEB Stratejik Ürün Destek Programı Komisyon Üyeliği yapan Doç. Dr. Tolga Tolunay, 2016 yılından beri bilimsel komisyonlarda görev almaktadır.      
+</div>
+    <div class=text>
+        
     <!-- Add the button with the link to an open menu -->
     <div class="open-menu-button" onclick="toggleMenu()">
         <a href="#menu">Yardımcılar</a>
@@ -40,8 +39,7 @@ Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik M
     <style>
         /* CSS style for the open menu button */
         .open-menu-button {
-            width: 75px;
-    position: sticky;
+width: 93px;    position: sticky;
     bottom: 20px;
     right: 20px;
     background-color: #f44336;

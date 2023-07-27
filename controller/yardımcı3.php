@@ -2,24 +2,23 @@
 
 <link rel="stylesheet" href="../view/css/bakanbilgi.css">
 <head>
-    <title>Bakanımız Hakkında</title>
+    <title>Bakan Yardımcısı</title>
     <?php include("navbar.php"); ?>
 </head>
 <body>
     <br>
     <div class="bilgi">
-        <img height=400 src="../view/image/38414,s-bakanimizpng.jpg" alt="">
-        <br><br>
-        <div class="text">
-            <b>Dr. Fahrettin Koca</b><br><br>
-            Dr. Fahrettin Koca, 2 Ocak 1965’te Konya’da doğdu. İlk ve orta öğrenimini doğduğu kentte, liseyi Bursa Erkek Lisesi’nde bitirdi. İstanbul Üniversitesi Tıp Fakültesi’ni 1988’de tamamlayarak tıp doktoru unvanını aldı. İhtisasını İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi Çocuk Sağlığı ve Hastalıkları Ana Bilim Dalı’nda tamamlayarak 1995’te Çocuk Sağlığı ve Hastalıkları Uzmanı oldu. <br><br>
+        <img height=400 width="665"src="../view/image/yardımcı3.webp" alt="">
+        <br><br><div class=text>
+       <b> Huzeyfe YILMAZ</b>  <br> </b> <br>
+       Huzeyfe Yılmaz,1977 Bolu Yeniçağa’da doğdu. Eğitim hayatına Bolu’da başladı. Ankara Tevfik İleri İmam Hatip Lisesi'ni bitirdikten sonra Kocaeli Üniversitesi Elektronik Haberleşme mühendisliğinden mezun oldu. Yüksek lisansını Gazi Üniversitesi Elektrik Elektronik Mühendisliği bölümünde yaptı. <br><br>
 
-Çeşitli sağlık kurumlarında hekimlik ve medikal direktörlük görevlerinde bulundu. Kurduğu ve başkanlığını yürüttüğü sağlık kurumlarında Türkiye’nin sağlıkta dönüşüm politikaları doğrultusunda önemli atılımlar gerçekleştirdi. Başkanı olduğu Türkiye Eğitim Sağlık ve Araştırma (TESA) Vakfı tarafından 2009 yılında kurulan İstanbul Medipol Üniversitesi’nin Mütevelli Heyeti Başkanlığını yürüttü.<br><br>
+İş hayatına, 2001 yılında Ankara Büyükşehir Belediyesinde mühendis olarak başladı ve teknik işler müdür yardımcısı pozisyonuna yükseldi. 2005 yılında Türksat'ta göreve başladı ve sırasıyla Ankara İl Müdürlüğü, Teknik İşletme Müdürlüğü ve Kocaeli İl Müdürlüğü görevlerini icra etti. 2014 yılı mart ayında Gençlik ve Spor Bakanlığı'nda Bilgi İşlem Daire Başkanı olarak göreve başladı ve 2017 yılında aynı kurumda Eğitim, Kültür ve Araştırma Genel Müdürü oldu.<br><br> 2018 Aralık ayında Türkiye Tarım Kredi Kooperatifleri'nin iştiraki olan Teknoloji şirketi Tarnet A.Ş.'de Genel Müdür ve Yönetim Kurulu üyesi olarak görev aldı. Ankara Bilim Üniversitesinde 2020 yılından beri misafir öğretim üyesi olan Huzeyfe Yılmaz 2022 yılından beri ATO'da Bilişim Komitesi Başkanlığı görevini sürdürmektedir. <br><br>
 
-Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik Metabolizma ve Beslenme Derneği, İstanbul Ticaret Odası (İTO) Sağlık Meslek Komitesi, Özel Hastaneler Sağlık Kuruluşları Derneği (OHSAD) üyelikleri bulunmaktadır. Aynı zamanda Dış Ekonomik İlişkiler Konseyi (DEİK) Eğitim Komitesi İş Konseyi Başkan Yardımcısı, Vakıf Üniversite Hastaneleri Derneği’nin Başkanı ve Hizmet İhracatçıları Birliği Sağlık Hizmetleri Komitesi Başkanıdır.<br><br>
+Kariyeri boyunca, Kredi Yurtlar Kurumu Dijital Dönüşüm Projesi, Gençlik Bilgi Sistemi, NUSRAT, Tarım Kredi Kurumsal Kaynak Planlama Sistemi, ZİHA (zirai insansız hava aracı), Tır Cepte, ATS (akıllı traktör sistemleri) gibi pek çok teknoloji projesine ve bilişim altyapısına imza atan Huzeyfe Yılmaz iyi derecede İngilizce ve Arapça bilmektedir. Huzeyfe Yılmaz evli ve iki çocuk babasıdır. <br>
         </div>
-    </div>
-
+    <div class=text>
+        
     <!-- Add the button with the link to an open menu -->
     <div class="open-menu-button" onclick="toggleMenu()">
         <a href="#menu">Yardımcılar</a>
@@ -40,8 +39,7 @@ Evli ve dört çocuk babası olan Koca’nın Türk Pediatri Kurumu, Pediatrik M
     <style>
         /* CSS style for the open menu button */
         .open-menu-button {
-            width: 75px;
-    position: sticky;
+            width: 93px;    position: sticky;
     bottom: 20px;
     right: 20px;
     background-color: #f44336;
